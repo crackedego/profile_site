@@ -1,0 +1,121 @@
+/**********************TAG SELECTORS****************/
+
+body {
+font-family: 'PT Sans', sans-serif;
+line-height: 1.5rem;
+font-size: 1.13rem;
+font-weight:400;
+letter-spacing: 0;
+margin: 3em 15em 0 15em;
+}
+
+hr {
+  width: 10%;
+  border-top: 5px dotted;
+  border-bottom:0;
+  border-left:0;
+  color: #FE7E6D;
+}
+
+h1 {
+  font-size: 1.13rem;
+  font-weight: 700;
+  margin: 0.5rem;
+
+}
+
+h2 {
+font-size: 1.13rem;
+font-weight: 400;
+font-style: italic;
+margin:0.5rem;
+
+}
+
+h3{
+  font-size: 1.13em;
+  font-weight: 700;
+}
+
+img {
+  height: 15.62rem;
+  width: 15.62rem;
+}
+
+
+/**********************CLASS SELECTORS****************/
+
+.about {
+  clear:left;
+  margin-bottom: 5rem;
+}
+
+.content {
+  border-spacing: .5rem;
+  margin-left: -.5rem;
+}
+
+.instagram_link{
+  width:2rem;
+  height:2rem;
+  opacity:1;
+}
+
+.instagram_link:hover {
+  opacity: 0.75;
+}
+
+
+.email_link{
+  width: 2rem;
+  height: 2rem;
+  opacity:1;
+}
+
+.email_link:hover{
+  opacity:0.75;
+}
+
+.footer{
+  width:100%;
+  height:4rem;
+  background-color: black;
+  padding-right:3.25rem;
+  color:white;
+  text-align: center;
+  font-size:1rem;
+  padding-top:1rem;
+}
+
+.linkedin_link {
+  width: 2rem;
+  height: 2rem;
+  opacity:1;
+}
+
+.linkedin_link:hover {
+  opacity:0.75;
+}
+
+.portfolio {
+width:75%;
+border-spacing: .5rem;
+margin-left:-.5rem;
+}
+
+.profile {
+  margin-bottom: 6.25rem;
+}
+
+.profile_pic {
+  height:6.25rem;
+  width:6.25rem;
+  float:left;
+  margin-right: 1.56rem;
+}
+
+/**********************ID SELECTORS****************/
+
+#rating {
+    color: #FE7E6D;
+}
