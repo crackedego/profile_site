@@ -6,8 +6,8 @@ line-height: 1.5rem;
 font-size: 1.13rem;
 font-weight:400;
 letter-spacing: 0;
-margin: 3em 15em 0 15em;
 }
+
 
 hr {
   width: 10%;
@@ -16,6 +16,7 @@ hr {
   border-left:0;
   color: #FE7E6D;
 }
+
 
 h1 {
   font-size: 1.13rem;
@@ -37,28 +38,18 @@ h3{
   font-weight: 700;
 }
 
-img {
-  height: 15.62rem;
-  width: 15.62rem;
+
+/* Profile */
+
+.profile {
+  margin-bottom: 6.25rem;
 }
 
-
-/**********************CLASS SELECTORS****************/
-
-.about {
-  clear:left;
-  margin-bottom: 5rem;
-}
-
-.content {
-  border-spacing: .5rem;
-  margin-left: -.5rem;
-}
-
-.instagram_link{
-  width:2rem;
-  height:2rem;
-  opacity:1;
+.profile_pic {
+  height:6.25rem;
+  width:6.25rem;
+  float:left;
+  margin-right: 1.56rem;
 }
 
 .instagram_link:hover {
@@ -76,6 +67,70 @@ img {
   opacity:0.75;
 }
 
+.linkedin_link {
+  width: 2rem;
+  height: 2rem;
+  opacity:1;
+}
+
+.linkedin_link:hover {
+  opacity:0.75;
+}
+
+/* About */
+
+.about {
+  clear:left;
+  margin-bottom: 5rem;
+}
+
+.content {
+  border-spacing: .5rem;
+  margin-left: -.5rem;
+}
+
+.instagram_link{
+  width:2rem;
+  height:2rem;
+  opacity:1;
+}
+
+/* Portfolio */
+
+.drop-buttons {
+  text-align:center;
+}
+
+.pro-button {
+  
+  background-color: #FFFFFF;
+  border-color:black;
+  position: relative;
+  font-weight:bold;
+  font-size:1rem;
+  box-shadow: -5px 5px 0 1px #000000;
+}
+
+.pro-button:hover {
+  color:#FE7E6D;
+  font-weight:900;
+  box-shadow: -5px 5px 0 1px #FE7E6D;
+  border-color: gray;
+}
+
+.portfolio-section{
+  width:80%;
+  padding:0;
+}
+
+.port-images {
+  width:100%;
+  padding-bottom:1.5rem;
+}
+
+
+/* Footer */
+
 .footer{
   width:100%;
   height:4rem;
@@ -87,35 +142,15 @@ img {
   padding-top:1rem;
 }
 
-.linkedin_link {
-  width: 2rem;
-  height: 2rem;
-  opacity:1;
-}
 
-.linkedin_link:hover {
-  opacity:0.75;
-}
 
-.portfolio {
-width:75%;
-border-spacing: .5rem;
-margin-left:-.5rem;
-}
 
-.profile {
-  margin-bottom: 6.25rem;
-}
 
-.profile_pic {
-  height:6.25rem;
-  width:6.25rem;
-  float:left;
-  margin-right: 1.56rem;
-}
+
 
 /**********************ID SELECTORS****************/
 
 #rating {
     color: #FE7E6D;
 }
+
