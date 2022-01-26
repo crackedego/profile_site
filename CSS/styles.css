@@ -1,61 +1,77 @@
 /**********************TAG SELECTORS****************/
 
 body {
-font-family: 'PT Sans', sans-serif;
-line-height: 1.5rem;
-font-size: 1.13rem;
-font-weight:400;
-letter-spacing: 1.5;
-}
-
-
-h1 {
+  font-family: 'PT Sans', sans-serif;
+  line-height: 1.5rem;
   font-size: 1.13rem;
-  font-weight: 700;
-  margin: 0.5rem;
-
+  font-weight:400;
+  letter-spacing: .05rem;
 }
 
-h2 {
-font-size: 1.13rem;
-font-weight: 400;
-font-style: italic;
-margin:0.5rem;
-
+a {
+  color:#feb1be;
 }
 
 h3{
   font-size: 1.13em;
   font-weight: 700;
+  letter-spacing: .08rem;
+}
+
+/* Profile */
+
+.pic-container {
+  margin-bottom: 1rem;
 }
 
 
-/* About */
+.pro-pic {
+  width:100px;
+  height:100px;
+  border-radius: 100%;
+}
 
-.about-section {
+.pro-text-container {
+  margin-bottom: 1rem;
+}
+
+.profile {
   width:80%;
-  padding-bottom:20px
+  text-align: center;
+  margin-bottom: 4rem;
+  margin-top: 4rem;
 }
 
-.about {
-  clear:left;
-  margin-bottom: 5rem;
+.social-icons {
+  margin-bottom: 2rem;
 }
 
-.content-element {
-  padding-bottom:.5rem;
+.icons {
+  font-size: 1.5rem;
+  padding: .50rem;
 }
 
-.instagram_link{
-  width:2rem;
-  height:2rem;
-  opacity:1;
+.icons:hover {
+  color:#FE7E6D;
+}
+
+
+/* Skills */
+.skills-section {
+  width: 80%;
+  padding: 2rem;
+  text-align: center;
+}
+
+.skill-header {
+  text-decoration: underline;
 }
 
 /* Portfolio */
 
 .drop-buttons {
   text-align:center;
+  width:80%;
 }
 
 .pro-button {
@@ -66,12 +82,15 @@ h3{
   font-weight:bold;
   font-size:1rem;
   box-shadow: -5px 5px 0 1px #000000;
+  width:50%;
+  margin-bottom: 2rem;
 }
 
+
 .pro-button:hover {
-  color:#FE7E6D;
+  color:#feb1be;
   font-weight:900;
-  box-shadow: -5px 5px 0 1px #FE7E6D;
+  box-shadow: -5px 5px 0 1px #feb1be;
   border-color: gray;
 }
 
@@ -85,6 +104,19 @@ h3{
   padding-bottom:1.5rem;
 }
 
+/* Skills */
+
+.skills-section {
+  text-align: center;
+}
+
+.skills-text{
+  padding:1rem 2rem 0 2rem;
+}
+
+.add-skills {
+   margin-top: 2rem;
+}
 
 /* Footer */
 
@@ -99,11 +131,32 @@ h3{
   padding-top:1rem;
 }
 
-/**********************ID SELECTORS****************/
+/* RESPONSIVE */
 
-#rating {
-    color: #FE7E6D;
+@media screen and (max-width: 800px) {
+
+  .pro-button {
+    width:100%;
+  }
+
+  .skills-section {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .pic-container{
+    margin-bottom: 0;
+    margin-right: 1rem;
+  }
+
+
+
+  .profile {
+    width:90%;
+  }
+
+  .pro-pic {
+    width:200px;
+    height:200px;
+  }
 }
-
-
-
